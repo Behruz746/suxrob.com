@@ -1,0 +1,247 @@
+@media (max-width: 768px) {
+
+   .logo {
+        display: none;
+    }
+
+   .menu__container .hamIcon {
+        display: block;
+    }
+
+    .link4{
+        width: 31%;
+    }
+
+    .container .menu__container { 
+        align-items: flex-start;
+        justify-content: left;
+        gap: 0;
+    }
+
+    body .menu__container {
+        padding: 0;
+        min-height: 80px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav .mainMenu {
+        display: none;
+    }
+
+    nav .active {
+        transform: translate(0px, -5px);
+        display: block;
+        margin-top: 75px;
+        padding-left: 10px;
+        border-left: 1px solid #4C4C4DFF;
+    }
+
+    .scrollMenu {
+        display: none;
+    }
+
+    .active li {
+        margin: 15px 0;
+        transition: 0.2s linear;
+    }
+
+    body .active a {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    body .header {
+        margin-bottom: 40px;
+    }
+
+    body .section__links__title {
+        margin-bottom: 20px;
+    }
+
+    body .section__links__subtitle {
+        margin-bottom: 40px;
+    }
+
+    body .abont__title__container {
+        margin: -40px 0 -60px 0;
+    }
+
+    .abont__text {
+        flex-direction: column;
+    }
+
+    .text__container {
+        margin-bottom: -100px;
+    }
+
+    body .loyihalar__container__texts {
+        margin: 80px 0 30px 0;
+    }
+
+    .abont__img {
+        margin: 0 auto;
+        transform: translate(0px, 120px);
+    }
+
+}
+
+@media  (max-width: 600px) {
+
+    .loyihalar__content__icon {
+        max-width: 280px;
+        height: 140px;
+    }
+
+    body .xizmatlar__container__texts {
+        margin-bottom: 30px;
+    }
+
+    body .xizmatlar__button {
+        margin: 30px 0 50px 0;
+    }
+
+}
+
+
+@media (max-width: 590px) {
+
+    .section__links__content {
+        flex-direction: column;
+    }
+
+    body .section__links__icons {
+        display: none;
+    }
+
+    .section__links__img {
+        margin: 0 auto;
+        z-index: 30;
+    }
+
+    body .section__links__icons__imgOver {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 40px;
+    }
+
+    body .icon__content {
+        background-color: #272727;
+    }
+
+    body .icon__text {
+        background-color: #151618;
+    }
+
+    .xizmatlar {
+        margin-top: 67px;
+    }
+
+    .xizmat__text li {
+        font-size: 16px;
+    }
+
+    .xizmat__text {
+        width: 400px;
+    }
+
+    body .xizmatlar__content__img__UX-UI {
+        justify-content: start;
+    }
+
+    body .suxrobjonCom {
+        justify-content: center;
+    }
+
+    body .suxrobjonCom__icon {
+        display: none;
+    }
+
+    body .loyihalar__title {
+        font-size: 38px;
+    }
+
+    body .abont {
+        padding: 100px 0 160px;
+    }
+
+    body .xizmatlar__container__icons {
+        gap: 100px;
+    }
+
+    body .xizmatlar {
+        margin-top: 60px;
+    }
+
+}
+
+@media (max-width: 390px) {
+
+    .xizmatlar__content__img {
+        max-width: 320px;
+        height: 160px;
+    }
+
+    body .loyihalar__content__icon svg path {
+        width: 40px;
+        transition: 0.3s linear; 
+    }
+
+    body .xizmatlar__button {
+        margin-top: 150px;
+    }
+
+    body .text__container {
+        padding: 15px 20px;
+    }
+
+    body .xizmatlar__content__text ul {
+        padding: 30px;
+    }
+
+}
+
+
+@media (max-width: 320px) {
+
+    .container {
+        margin: 0 40px;
+    }
+
+    body .abont__img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .suxrobjonCom__text h2 {
+        text-align: center;
+    }
+
+    body .loyihalar__subtitle {
+        margin-bottom: 30px;
+    }
+
+    body .xizmatlar__button {
+        margin-top: 80px;
+    } 
+
+    body .loyihalar__container__texts {
+        margin-top: 60px;
+    }
+
+}
+
+@media (max-width: 200px) {
+
+    body .container {
+        padding: 0;
+    }
+
+    body .text__container {
+        padding: 10px 0px;
+    }
+
+}

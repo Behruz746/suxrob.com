@@ -1,0 +1,27 @@
+@font-face {
+    /* italik */
+    font-family: 'Italice_pro-Display';
+    src: url(./sf-pro-display-cufonfonts/SFPRODISPLAYBLACKITALIC.OTF);
+    font-weight: 700;
+}
+
+@font-face {
+    /* bold */
+    font-family: 'Bold_pro-Display';
+    src: url(./sf-pro-display-cufonfonts/SFPRODISPLAYBOLD.OTF);
+    font-weight: 700;
+}
+
+@font-face {
+    /* nomal */
+    font-family: 'pro-Display';
+    src: url(./sf-pro-display-cufonfonts/SFPRODISPLAYMEDIUM.OTF);
+    font-weight: 300;
+}
+
+@font-face {
+    /* nomal */
+    font-family: 'pro-Display-400';
+    src: url(./sf-pro-display-cufonfonts/SFPRODISPLAYMEDIUM.OTF);
+    font-weight: 700;
+}

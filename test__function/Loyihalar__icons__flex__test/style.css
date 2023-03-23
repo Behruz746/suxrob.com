@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #151618;
+}
+
+.loyihalar__container__icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+    background-color: #1D1D1E;
+    color: #fff;
+}
+
+.loyihalar__content__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 280px;
+    width: 100%;
+    height: 140px;
+    background-color: #272727;
+    transition: 0.5s;
+}
+
+.loyihalar__content__icon svg path {
+    transition: 0.3s linear; 
+}
+
+.loyihalar__content__icon:hover svg path {
+    fill: #f1f1f1;
+}
+
+@media  (max-width: 600px) {
+    .loyihalar__content__icon {
+        max-width: 280px;
+        height: 140px;
+    }
+}
